@@ -1,0 +1,9 @@
+Username,Password,Role
+admin,admin123,ADMIN
+admin2,admin456,ADMIN
+aaaa,12345,CLIENT:cilent-0
+aa,12345,CLIENT:cilent-1
+ssss,12345,CLIENT:cilent-2
+sss,12345,CLIENT:cilent-3
+rz,12345,CLIENT:cilent-4
+rr,12345,CLIENT:cilent-6

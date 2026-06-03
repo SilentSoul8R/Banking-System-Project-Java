@@ -1,0 +1,7 @@
+ClientID,PersonCNIC
+cilent-0,31205
+cilent-1,12345
+cilent-2,23456
+cilent-3,34567
+cilent-4,56654
+cilent-6,12345
