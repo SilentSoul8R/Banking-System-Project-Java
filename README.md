@@ -61,8 +61,8 @@ Represents a bank account linked to a `Client`.
 | count    | int    | Static counter for ID generation     |
 
 **Methods:**
-- `deposit(float amount)` — Adds funds; rejects non-positive amounts.
-- `withdraw(float amount)` — Deducts funds; rejects overdraft or invalid amounts.
+- `deposit(float amount)`: Adds funds; rejects non-positive amounts.
+- `withdraw(float amount)`: Deducts funds; rejects overdraft or invalid amounts.
 
 ---
 
@@ -192,7 +192,7 @@ Additional accounts are loaded from `Users.txt` if the file exists.
 
 ## Known Issues / Notes
 
-- Passwords are stored in **plaintext** — not suitable for production use.
+- Passwords are stored in **plaintext**: not suitable for production use.
 - There is a typo in file/class naming: `Cilent.txt` and the `Client` class use inconsistent spelling.
 - Static counters (`Client.count`, `Account.count`) are not persisted; IDs may reset or collide across sessions unless carefully managed during file loading.
-- The `Client` ID prefix in code is `"cilent-"` (misspelled) — changing this would break compatibility with existing data files.
+- The `Client` ID prefix in code is `"cilent-"` (misspelled): changing this would break compatibility with existing data files.
