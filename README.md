@@ -1,3 +1,8 @@
+<div align = center>
+  <img width="350" height="350" alt="1000251199-removebg-preview (1)" src="https://github.com/user-attachments/assets/96a53c51-507a-47f2-bb53-34576b1d3751" />
+
+</div>
+
 # Banking System Project
 
 A Java-based banking management system with both a console menu interface and a modern Swing GUI. The system supports role-based access (Admin and Client), persistent file-based storage, and full account management operations.
